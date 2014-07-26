@@ -3,12 +3,16 @@ require 'active_support/inflector'
 
 # Phase IVa
 class AssocOptions
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0cc231f222cf23d402157704302f6bf37b1944cb
   attr_accessor(
     :foreign_key,
     :class_name,
     :primary_key
   )
+<<<<<<< HEAD
   #has_many(
   #:human,
   #:foreign_key => :human_id,
@@ -16,6 +20,9 @@ class AssocOptions
   #:primary_key => :id)
   #
   #
+=======
+
+>>>>>>> 0cc231f222cf23d402157704302f6bf37b1944cb
   def model_class
     # ...
   end
@@ -31,9 +38,12 @@ class BelongsToOptions < AssocOptions
   end
 end
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 0cc231f222cf23d402157704302f6bf37b1944cb
 class HasManyOptions < AssocOptions
   def initialize(name, self_class_name, options = {})
     # ...
